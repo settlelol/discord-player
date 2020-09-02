@@ -5,6 +5,7 @@ const ytpl = require('ytpl')
 const spotify = require('spotify-url-info')
 const Queue = require('./Queue')
 const Track = require('./Track')
+const soundcloud = require('soundcloud-scraper')
 
 /**
  * @typedef Filters
